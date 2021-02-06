@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>frontend</AssemblyName>
+    <RootNamespace>frontend</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
