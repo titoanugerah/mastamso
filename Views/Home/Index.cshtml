@@ -5,36 +5,76 @@
 
 <div class="card-header">
     <div class="invoice-header">
-        <h3 class="invoice-title">
-            Invoice
-        </h3>
-        <div class="invoice-logo">
+        <h2 class="invoice-title">
+            Bill
+        </h2>
+        @*<div class="invoice-logo">
             <img src="../assets/img/examples/logoinvoice.svg" alt="company logo">
+        </div>*@
+        <input class="form-control col-md-6" name="name" value="" />
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-5">
+            <label>Invoice No.</label>
+            <input type="text" name="name" value="" class="form-control col-md-6" />
         </div>
+            <div class="col-md-3">
+
+                <label>Language</label>
+                <select class="form-control">
+                    <option value="value">English</option>
+                    <option value="value">Indonesia</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label>Language</label>
+                <select class="form-control">
+                    <option value="value">USD</option>
+                    <option value="value">IDR</option>
+                </select>
+            </div>
+
+            <br />
+            <br />
+        </div>
+
+        <br />
+        <br />
     </div>
-    <div class="invoice-desc">
-        Bandung, West Java, Indonesia<br>
-        Fax 621113
-    </div>
-</div>
 <div class="card-body">
     <div class="separator-solid"></div>
     <div class="row">
-        <div class="col-md-4 info-invoice">
-            <h5 class="sub">Date</h5>
-            <p>Dec 21, 2017</p>
+        <div class="col-md-8">
+            <div class="form-group">
+                <label>From</label>
+                <textarea class="form-control col-md-10"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>To</label>
+                <textarea class="form-control col-md-10"></textarea>
+            </div>
         </div>
-        <div class="col-md-4 info-invoice">
-            <h5 class="sub">Invoice ID</h5>
-            <p>#FDS9876KD</p>
-        </div>
-        <div class="col-md-4 info-invoice">
-            <h5 class="sub">Invoice To</h5>
-            <p>
-                Jane Smith, 1234 Main, Apt. 4B<br>Springfield, ST 54321
-            </p>
+
+        <div class="col-md-4">
+            <div class="form-group">
+                <label>Date</label>
+                <input type="date" class="form-control" value="" />
+            </div>
+
+            <div class="form-group">
+                <label>Invoice Due</label>
+                <select class="form-control">
+                    <option value="value">Immeditially</option>
+                    <option value="value">Future</option>
+                </select>
+            </div>
+
+
         </div>
     </div>
+
     <div class="row">
         <div class="col-md-12">
             <div class="invoice-detail">
@@ -59,36 +99,14 @@
                                     <td class="text-center">1</td>
                                     <td class="text-right">$10.99</td>
                                 </tr>
-                                <tr>
-                                    <td>BS-400</td>
-                                    <td class="text-center">$20.00</td>
-                                    <td class="text-center">3</td>
-                                    <td class="text-right">$60.00</td>
-                                </tr>
-                                <tr>
-                                    <td>BS-1000</td>
-                                    <td class="text-center">$600.00</td>
-                                    <td class="text-center">1</td>
-                                    <td class="text-right">$600.00</td>
-                                </tr>
+                               
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td class="text-center"><strong>Subtotal</strong></td>
                                     <td class="text-right">$670.99</td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="text-center"><strong>Shipping</strong></td>
-                                    <td class="text-right">$15</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="text-center"><strong>Total</strong></td>
-                                    <td class="text-right">$685.99</td>
-                                </tr>
+
                             </tbody>
                         </table>
                     </div>
